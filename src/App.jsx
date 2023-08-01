@@ -30,6 +30,7 @@ export const App = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path="/apis" element={<Apis />} />
             <Route path="/unsplash" element={<Unsplash />} />
+            <Route path="/ab-website/" element={<Home />} />
             <Route path="*" element={<Home />} />
             <Route path="/google" element={<GoogleMaps />} />
           </Routes>
