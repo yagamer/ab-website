@@ -1,0 +1,34 @@
+.maps-title { 
+    grid-area: maps;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+   
+    background-image: url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80");
+  
+}
+
+.maps-title > div  { 
+   
+    color: #E6E6E6;
+    font-family: 'Dosis', sans-serif;
+}
+#map { 
+    grid-area: map;
+ 
+    margin: 10px;
+     
+}
+
+.google-map-container { 
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    height: calc(100vh - 60px);
+    grid-template-areas: "maps"
+                         "map";
+    
+};
+ 
+
+ 

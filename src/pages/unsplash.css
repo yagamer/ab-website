@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+
+.unsplash-container { 
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    height: calc(100vh - 60px);
+ 
+    
+ }
+
+ .unsplash-grid { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100%; 
+    padding: 10px;
+    gap: 6px;
+ }
+
+ .card-image-container img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+ }
+ 

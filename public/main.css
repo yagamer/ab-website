@@ -1,0 +1,46 @@
+ 
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    --bgColor: white;
+    --hoverIcon: #087FD1;
+    --grayIcon: #E6E6E6;
+    --textColor: #4A5779;
+}
+ 
+
+/*layout */
+.layout { 
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 6vw 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: "nav nav"
+                         "menu pages";
+    transition: grid-template-columns .5s;
+}
+.toggleMenu {
+    grid-template-columns: 0vw 1fr;
+}
+#nav { 
+    grid-area: nav;
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+}
+#menu { 
+    grid-area: menu;
+    border-radius: 0 0 20px 0;
+}
+#pages {
+    grid-area: pages;
+    
+}
+

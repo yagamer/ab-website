@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+ .section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFD43B; */
+    padding: 100px 0;
+  }
+  .section div { 
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Anton', sans-serif;
+  }
+  .section-title { 
+  color: #292C3D;
+}
+.section-description { 
+  color: #47B686;
+  font-size: 1.1em;
+}
+
+ 

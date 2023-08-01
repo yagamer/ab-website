@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+.home-container { 
+
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    height: calc(100vh - 60px);
+    background-color: white;
+    
+}
+ .home-title { 
+     
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80");
+
+ }
+ .developer { 
+    color: #E6E6E6;
+    letter-spacing: 1px;
+    font-family: 'Dosis', sans-serif;
+ }
+ 
+
+ 
+ .social-media { 
+   position: absolute;
+   top: 250px;
+   right: -120px;
+   transform: rotate(90deg);
+   font-family: 'PT Sans Narrow', sans-serif;
+   letter-spacing: 7px;
+   display: flex;
+ }
+.social-media > div { 
+   padding-right: 5px;
+}
+ .icons > i { 
+   transform: rotate(-90deg);
+   margin-left: 5px;
+ }
+ 
+ /*javascript title and descriptions*/
+ .home-page { 
+   position: relative;
+   display: flex;
+   background-image: url("https://img.freepik.com/free-vector/developer-activity-concept-illustration_114360-2801.jpg?w=740&t=st=1689733537~exp=1689734137~hmac=5f41eb3dcc39bd0c730783df444e7f40f964f8825d87b0eb9dd9996288118a8b");
+   background-repeat: no-repeat;
+   background-size: 40%;
+   background-position-x: 80%;
+   background-position-y: 50%;
+   align-items: center;
+   padding-left: 100px;
+}
+ 
+ .intro-welcome, .intro-title, .intro-description{
+ 
+   color: #292C3D;
+}
+ 
+.intro-title {
+   font-family: 'Paytone One', sans-serif;
+   font-size: 3em;
+}
+.intro-title1 { 
+   font-family: 'Paytone One', sans-serif;
+   font-size: 3em;
+   color: #292C3D;
+
+}
+.intro-rol { 
+   color: #F09162;
+}
+.intro-typed { 
+   color: #292C3D;
+   font-size: 2em;
+   font-family: 'Paytone One', sans-serif;
+
+}
+.intro-welcome, .intro-description { 
+   font-family: 'Dosis', sans-serif;
+   font-size: 1.7em;
+}
+.intro-button { 
+   background-color: #48B785;
+   color: white;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   margin-top: 15px;
+}
+.intro-button:hover { 
+   background-color: #5AE4A8;
+}
+
+/* next section */

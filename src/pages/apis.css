@@ -1,0 +1,37 @@
+ 
+
+ .api-container { 
+    display: grid;
+    grid-template-rows: 100px 1fr;
+ 
+    grid-template-areas: "api-title"
+                         "api-cards";
+                         
+   background-color: white;
+ }
+ .api-title { 
+    grid-area: api-title;
+    display: flex;
+    
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80");
+ 
+ 
+
+ }
+ .api-description  {
+   font-family: 'Anton', sans-serif;;
+   color: #E6E6E6;
+    
+   font-family: 'Dosis', sans-serif;
+   padding-left: 20px;
+ }
+ .api-cards {
+    grid-area: api-cards;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 100%;
+    padding: 10px;
+   
+ }

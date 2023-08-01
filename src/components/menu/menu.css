@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+#menu { 
+    background-color: #292C3D;
+}
+.icon { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    
+}
+ 
+
+.icon a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.icon > a > p { 
+    margin: 5px 0;
+    letter-spacing: 1px;
+}
+.general { 
+    color: var(--grayIcon);
+}
+.general:hover {
+    color: var(--hoverIcon);
+}
+.active {
+    color: var(--hoverIcon);
+}
+
+ 

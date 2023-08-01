@@ -1,0 +1,27 @@
+ #nav { 
+    display: grid;
+    grid-template-columns: 6vw 2fr 1fr;
+    background-color: white;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img { 
+    width: 45px;
+    height: 45px;
+}
+
+.working { 
+    display: flex;
+    align-items: center;
+    
+}
+.working i { 
+    color: #4A5779;
+    cursor: pointer;
+    padding-left: 50px;
+}
+ 
