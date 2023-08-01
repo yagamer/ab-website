@@ -26,6 +26,7 @@ export const App = () => {
           <Menu />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/ab-website/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/apis" element={<Apis />} />
             <Route path="/unsplash" element={<Unsplash />} />
