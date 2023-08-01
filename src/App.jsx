@@ -19,6 +19,7 @@ export const App = () => {
    
   let cEndpoint = useLocation()
  
+  console.log(cEndpoint.pathname)
   return (
     <>
         <div className={toggle ? "layout toggleMenu" : "layout"}>
@@ -26,17 +27,15 @@ export const App = () => {
           <Menu />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/ab-website/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/apis" element={<Apis />} />
             <Route path="/unsplash" element={<Unsplash />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Home />} />
             <Route path="/google" element={<GoogleMaps />} />
           </Routes>
-        
         </div>
         {
-          cEndpoint.pathname === "/" && <Section />
+          cEndpoint.pathname === "/"  && <Section />
         }
     </>
   )
