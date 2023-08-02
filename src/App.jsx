@@ -36,7 +36,7 @@ export const App = () => {
           </Routes>
         </div>
         {
-          cEndpoint.pathname === "/"  && <Section />
+          cEndpoint.pathname === "/" || cEndpoint.pathname === "/ab-website/"  && <Section />
         }
     </>
   )
